@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.index-body-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.index-header-div{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+.index-content-div{
+    /* height: 900px; */
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   min-height: calc(100% - 200px);
+   padding-bottom: 100px;
+}
+.index-footer-div{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    margin-top: -100px;
+    /* position: absolute;
+    bottom: 0; */
+}
+.index-content-left{
+    width: 150px;
+    border-right: 1px solid #666;
+}
+.index-content-right{
+    width: 150px;
+    border-left: 1px solid #666;
+}
